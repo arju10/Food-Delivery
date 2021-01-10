@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Start Header */
+.container{
+    background-image: url("../bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+   
+
+}
+.top-header{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgba(59, 57, 59, 0);  
+
+    
+}
+.logo{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.logo img{
+    width: 70px;
+    height:70px;
+    border-radius: 50px;
+    
+    
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    padding:30px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+
+}
+a:hover{
+    color:rgb(165, 219, 40);
+}
+.top-last-header{
+    text-align: center;
+   color:white;
+   padding:175px;
+
+}
+.top-last-header h1 {
+    font-size: 50px;
+}
+.top-last-header p{
+    font-size: 25px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+button{
+    background-color: rgb(241, 60, 28);
+    color:white;
+    padding:5px 15px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: solid white;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+/* End Header */
+
+/* Start Main>>Services */
+main{
+    text-align: center;
+
+}
+main h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.services{
+    display: flex;
+    margin: 20px 50px;
+    justify-content: center;
+   
+}
+.box{
+    width:410px;
+    height:600px;
+    background-color: gray;
+    margin-top: 10px;
+    /* margin-right: 50px; */
+    flex-wrap: wrap;
+    padding:30px;
+    margin:60px;
+    border-radius: 20px;
+}
+.box h1{
+    font-size: 35px;
+}
+.box img{
+    width:230px;
+    height:200px;
+}
+/* End Main>>Services */
+/* Client Section */
+.client{
+    background-image: url("../bg.jpg");
+    background-repeat: no-repeat;
+    height:350px;
+
+    
+  
+   
+}
+.client h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+.clients{
+    
+    display: flex;
+    
+   
+    justify-content: center;
+   
+    
+}
+.client img{
+    padding:20px;
+    width:200px;
+    height:200px;
+    position:bottom;
+    
+}
+/* End Client Section */
+
+/* Footer */
+/* Input Section */
+
+.footer{
+    background-image: url("../contact.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+    
+
+.input-textarea{
+    width:500px;
+    height:40px;
+    border-radius: 5px;
+    /* text-align: center; */
+    font-size: 20px;
+    padding:10px;
+}
+.footer-items{
+    margin: 0 auto;
+    align-items: center;
+    margin-left: 500px;
+}
+.footer h1{
+    text-align: center;
+    font-size: 40px;
+}
+label{
+    font-size: 20px;
+}
+
+.submit{
+    background-color: rgb(19, 16, 15);
+    color:white;
+    padding:5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* End Input Section */
+/* CopyRight Section */
+.copyright{
+    text-align: center;
+    background-color: grey;
+    margin-top: 30px;
+    padding: 10px 0px;
+    font-size: large;
+}
+
+/* End CopyRight Section */
+
